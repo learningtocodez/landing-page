@@ -3,7 +3,7 @@
     justify-content: space-around;
     list-style-type: none;
     background-color: #1f2937;
-    border: 2px solid red;
+    /*border: 2px solid red;*/
 }
 
 body {
@@ -15,7 +15,7 @@ body {
 
 
 .logo {
-    margin-top: 40px;
+    margin-top: 20px;
     color: #f9faf8;
     font-size: 24px;
 } 
@@ -44,34 +44,48 @@ ul {
     padding: 24px;
     gap: 24px;
     list-style-type: none;
-    border: 2px solid red;
+    /*border: 2px solid red;*/
 }
-
+/*
 .links {
     margin-top: 1em;
     margin-right: 2em;
-}
+}*/
 
 .container {
     display: flex;
-    /*margin-bottom: 2em;*/
+    align-items: center;
+    margin-bottom: 20px; 
     background-color: #1f2937;
-    border: 2px solid red;
+    /*border: 2px solid red;*/
+}
+
+.left-square {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 33.33333%;
+    align-items: flex-start;
+    justify-content: center; 
+    flex-direction: column;
+    max-height: 10%;
+    margin-top: 4%;
+    margin-left: 14%;
+    margin-bottom: 4%;
 }
 
 /*push writing down to meet photo img before push*/
 .commerce-solutions {
-    margin-top: 55px;
-    margin-left: 50px;
-    margin-bottom: -22px;
+    margin-top: 8%;
+    margin-left: 10%;
+    margin-bottom: 1%; 
     color: #f9faf8;
-    border: 2px solid red;
+    /*border: 2px solid red;*/
 }
 
 .commerce-solutions1 {
-    margin-left: 50px;
-    margin-bottom: 2px;
-    border: 2px solid red;
+    margin-left: 9%;
+    margin-bottom: 2%; 
+    /*border: 2px solid red;*/
 }
 
 button {
@@ -92,26 +106,24 @@ button {
 
 
 .right-square {
-    margin: 0;
     display: flex;
-    margin: auto;
-    width: 100vh;
+    align-items: flex-end;
+    flex-direction: column;
+    margin-top: auto;
+    margin-left: 290px;
+    margin-right: 0;
+    margin-bottom: 6%;
 }
 
+
 .computer-picture {
-    /* Computer img design below.*/
-    margin-top: 48px;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-bottom: 48px;
-    object-fit: contain;
-    flex: 1;
-    border: 2px solid red;
+    flex-shrink: 1;
+    max-height: 400px;
 }
 
 .container1 {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     gap: 50px;
     margin-top: 40px;
@@ -120,24 +132,22 @@ button {
     /*border: 2px solid green;*/
 }
 
-/*
+
 .info {
-    border: 2px solid green;
-}*/
+    text-align: center;
+    color: #1f2937;
+    font-size: 36px;
+}
 
 .text {
-    display: flex;
-    justify-content: center;
     /*border: 2px solid green;*/
     color: #1f2937;
-    font-size: 18px;
-    
+    font-size: 16px;
 }
 
 .burner {
-    object-fit: contain;
     border-radius: 20px;
-   /* border: 2px solid green;*/
+    border: 2px solid grey;
 }
 /*Fix this button before git push, padding fine margin maybe not.*/
 

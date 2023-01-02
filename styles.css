@@ -1,11 +1,8 @@
-/* You need to fix resizing as it shrinks so its like Mae's*/
-
 .header {
     display: flex;
     justify-content: space-around;
     list-style-type: none;
     background-color: #1f2937;
-    /*border: 2px solid red;*/
 }
 
 body {
@@ -18,7 +15,7 @@ body {
 
 .logo {
     display: flex;
-    justify-content: space-around; /*space-evenly if needed */
+    justify-content: space-around; 
     margin-top: 0px;
     color: #f9faf8;
     font-size: 24px;
@@ -53,7 +50,7 @@ ul {
 .container {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;/*space-around*/
+    justify-content: space-evenly;
     margin-bottom: 20px; 
     background-color: #1f2937;
 }
@@ -69,7 +66,8 @@ ul {
     margin-top: 0;
     margin-left: 0; 
     margin-right: 0;
-    margin-bottom: 85px; /*needs to be on right-square as well.*/
+    /*margin-bottom needs to be the same px on right-square as well.*/
+    margin-bottom: 85px; 
 }
 
 button {
@@ -94,7 +92,8 @@ button {
     align-items: center;
     flex-direction: column;
     margin-top: 0;
-    margin-bottom: 85px; /*Needs to be equal to left square.*/
+    /*margin-bottom needs to be equal in px to left-square.*/
+    margin-bottom: 85px; 
 }
 
 

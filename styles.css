@@ -21,13 +21,13 @@ body {
     font-size: 24px;
 } 
 
-h1 {
+.commerce-solutions {
     color: #f9faf8;
     font-size: 36px;
 
 }
 
-p {
+.commerce-solutions1 {
     color: #f9faf8;
     font-size: 24px;
 }
@@ -132,4 +132,36 @@ button {
 .burner {
     border-radius: 20px;
     border: 2px solid grey;
+}
+
+
+.inspire {
+    background-color: #E5E7EB;
+}
+
+.chat {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.quote {
+    color: #1F2937;
+    font-style: italic;
+    padding: 48px;
+    font-size: 36px;
+    flex-basis: 49.33333%;
+}
+
+
+.thor {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.top-bottom {
+    margin-top: 0px;
+    margin-bottom: 0px;
 }

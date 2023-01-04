@@ -142,6 +142,8 @@ button {
 .chat {
     display: flex;
     justify-content: space-evenly;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 
@@ -150,7 +152,7 @@ button {
     font-style: italic;
     padding: 48px;
     font-size: 36px;
-    flex-basis: 49.33333%;
+    flex-basis: 48.99999%;
 }
 
 
@@ -159,6 +161,9 @@ button {
     justify-content: flex-end;
     font-weight: 900;
     font-size: 20px;
+    margin-top: 0%;
+    margin-right: 5%;
+    margin-bottom: 0%
 }
 
 .top-bottom {

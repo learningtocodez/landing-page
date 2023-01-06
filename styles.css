@@ -70,7 +70,7 @@ ul {
     margin-bottom: 85px; 
 }
 
-button {
+.button {
     margin-top: 0;
     margin-left: 0px;
     padding-top: 6px;
@@ -108,7 +108,7 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 30px;
     margin-top: 40px;
     margin-bottom: 60px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -169,4 +169,69 @@ button {
 .top-bottom {
     margin-top: 0px;
     margin-bottom: 0px;
+}
+
+
+.container-blue {
+    display: flex;
+    justify-content: center;
+    color: #E5E7EB;
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+
+
+.call {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 60%;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 900;
+    padding: 3em 3em;
+    background-color: #3882f6;
+}
+
+/* DELETE BEFORE PUSH. If you want it fixed you need to remove call and then adjust the code so everything lines up with in container-blue*/
+
+.to {
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 0%;
+    margin-left: 5%;
+    
+}
+
+.action  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    font-size: 16px;
+    font-weight: 100;
+    margin-left: 5%;
+}
+
+.button2 {
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: #3882f6;
+    font-size: 18px;
+    padding: 6px 2em;
+    margin-right: 10%;
+    border: 2px solid #E5E7EB
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    margin-top: auto;
+}
+
+.copyright {
+    color: #f9faf8;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }

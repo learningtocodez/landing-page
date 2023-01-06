@@ -66,7 +66,6 @@ ul {
     margin-top: 0;
     margin-left: 0; 
     margin-right: 0;
-    /*margin-bottom needs to be the same px on right-square as well.*/
     margin-bottom: 85px; 
 }
 
@@ -92,7 +91,6 @@ ul {
     align-items: center;
     flex-direction: column;
     margin-top: 0;
-    /*margin-bottom needs to be equal in px to left-square.*/
     margin-bottom: 85px; 
 }
 
@@ -102,6 +100,7 @@ ul {
     min-height: 140px;
     min-width: 320px;
     margin-top: 40px;
+    margin-bottom: 0;
 }
 
 .container1 {
@@ -163,6 +162,7 @@ ul {
     font-size: 20px;
     margin-top: 0%;
     margin-right: 5%;
+    margin-left: 0;
     margin-bottom: 0%
 }
 
@@ -198,8 +198,10 @@ ul {
 .to {
     display: flex;
     justify-content: flex-start;
+    margin-top: 0;
     margin-right: 0%;
     margin-left: 5%;
+    margin-bottom: 0;
     
 }
 
@@ -209,7 +211,10 @@ ul {
     align-items: center; 
     font-size: 16px;
     font-weight: 100;
+    margin-top: 0;
+    margin-right: 0;
     margin-left: 5%;
+    margin-bottom: 0;
 }
 
 .button2 {

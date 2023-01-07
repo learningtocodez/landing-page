@@ -16,7 +16,7 @@ body {
 .logo {
     display: flex;
     justify-content: space-around; 
-    margin-top: 0px;
+    margin-top: 10px;
     color: #f9faf8;
     font-size: 24px;
 } 
@@ -40,7 +40,9 @@ a {
 ul {
     display: flex;
     font-size: 18px;
-    margin-top: 0;
+    flex-wrap: wrap; 
+    max-width: 100%;
+    margin-top: 10px;
     margin-left: 140px;
     padding-top: 0;
     gap: 24px;
@@ -49,8 +51,10 @@ ul {
 
 .container {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
+    max-width: 100%;
     margin-bottom: 20px; 
     background-color: #1f2937;
 }
@@ -58,11 +62,12 @@ ul {
 
 .left-square {
     display: flex;
-    /* 33.33333 creates break in sentences.*/
+    flex-wrap: wrap;
     flex-basis: 33.33333%; 
     align-items: flex-start;
     justify-content: center; 
     flex-direction: column;
+    max-width: 100%;
     margin-top: 0;
     margin-left: 0; 
     margin-right: 0;
@@ -90,12 +95,14 @@ ul {
     display: flex;
     align-items: center;
     flex-direction: column;
+    max-width: 100%; 
     margin-top: 0;
     margin-bottom: 85px; 
 }
 
 
 .computer-picture {
+    max-width: 100%;
     flex-shrink: 1;
     min-height: 140px;
     min-width: 320px;
@@ -107,7 +114,9 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;  
     gap: 30px;
+    max-width: 100;
     margin-top: 40px;
     margin-bottom: 60px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -119,7 +128,6 @@ ul {
     color: #1f2937;
     font-size: 36px;
     flex-wrap: wrap;
-    /*flex-basis at a certain % can control when a sentence breaks to next line.*/
     flex-basis: 12.11111%;
 }
 
@@ -192,8 +200,6 @@ ul {
     padding: 3em 3em;
     background-color: #3882f6;
 }
-
-/* DELETE BEFORE PUSH. If you want it fixed you need to remove call and then adjust the code so everything lines up with in container-blue*/
 
 .to {
     display: flex;
